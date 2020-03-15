@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1218</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="maximumSize">
+             <size>
+              <width>11111111</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>分析</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/compare.png</normaloff>:/iconPicture/compare.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>111111</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>同步</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/FreeFileSync.png</normaloff>:/iconPicture/FreeFileSync.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="maximumSize">
+             <size>
+              <width>111111</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Noto Sans Mono CJK SC</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>过滤</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/filter.png</normaloff>:/iconPicture/filter.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="maximumSize">
+             <size>
+              <width>111111</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>日志</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/同步.png</normaloff>:/iconPicture/同步.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>120</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>网络</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/sheet_28.png</normaloff>:/iconPicture/sheet_28.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>本地文件夹</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/增加.png</normaloff>:/iconPicture/增加.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2">
+            <property name="minimumSize">
+             <size>
+              <width>110</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Noto Sans CJK SC</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <item>
+             <property name="text">
+              <string>向右同步</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/iconPicture/so_move_right.png</normaloff>:/iconPicture/so_move_right.png</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>向左同步</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/iconPicture/so_move_left.png</normaloff>:/iconPicture/so_move_left.png</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>双向同步</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/iconPicture/FFS_tray_16x16.png</normaloff>:/iconPicture/FFS_tray_16x16.png</iconset>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_3">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>54</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>本地文件夹</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/iconPicture/增加.png</normaloff>:/iconPicture/增加.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>54</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0">
+          <item>
+           <widget class="QTreeWidget" name="treeWidget">
+            <property name="font">
+             <font>
+              <family>Sans</family>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1218</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(F)</string>
+    </property>
+    <addaction name="action_N"/>
+    <addaction name="action_O"/>
+    <addaction name="separator"/>
+    <addaction name="action_S_g"/>
+    <addaction name="action_A"/>
+    <addaction name="separator"/>
+    <addaction name="action_X"/>
+   </widget>
+   <widget class="QMenu" name="menu_A">
+    <property name="title">
+     <string>动作(A)</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="separator"/>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+    <addaction name="separator"/>
+    <addaction name="action_9"/>
+   </widget>
+   <widget class="QMenu" name="menu_T">
+    <property name="title">
+     <string>工具(T)</string>
+    </property>
+    <addaction name="action_10"/>
+    <addaction name="separator"/>
+    <addaction name="action_F"/>
+    <addaction name="separator"/>
+    <addaction name="action_13"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助(H)</string>
+    </property>
+    <addaction name="action_14"/>
+    <addaction name="separator"/>
+    <addaction name="action_16"/>
+    <addaction name="separator"/>
+    <addaction name="action_18"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_A"/>
+   <addaction name="menu_T"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_N">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/new.png</normaloff>:/iconPicture/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建(N)</string>
+   </property>
+  </action>
+  <action name="action_O">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/load.png</normaloff>:/iconPicture/load.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开(O)</string>
+   </property>
+  </action>
+  <action name="action_S_g">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/save.png</normaloff>:/iconPicture/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存(S)</string>
+   </property>
+  </action>
+  <action name="action_A">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/cat_right_only.png</normaloff>:/iconPicture/cat_right_only.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为(A)</string>
+   </property>
+  </action>
+  <action name="action_X">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/so_none.png</normaloff>:/iconPicture/so_none.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出(X)</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/找平.png</normaloff>:/iconPicture/找平.png</iconset>
+   </property>
+   <property name="text">
+    <string>开始比较</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/settings.png</normaloff>:/iconPicture/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>比较设置</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/cfg_sync.png</normaloff>:/iconPicture/cfg_sync.png</iconset>
+   </property>
+   <property name="text">
+    <string>过滤器设置</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/cfg_compare.png</normaloff>:/iconPicture/cfg_compare.png</iconset>
+   </property>
+   <property name="text">
+    <string>同步设置</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/FFS_tray_24x24.png</normaloff>:/iconPicture/FFS_tray_24x24.png</iconset>
+   </property>
+   <property name="text">
+    <string>开始同步</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/iconPicture/配置.png</normaloff>:/iconPicture/配置.png</iconset>
+   </property>
+   <property name="text">
+    <string>选项</string>
+   </property>
+  </action>
+  <action name="action_F">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/过滤.png</normaloff>:/iconPicture/过滤.png</iconset>
+   </property>
+   <property name="text">
+    <string>查找(F)</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/settings.png</normaloff>:/iconPicture/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>高级</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/compare.png</normaloff>:/iconPicture/compare.png</iconset>
+   </property>
+   <property name="text">
+    <string>手册</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/reset_dialogs.png</normaloff>:/iconPicture/reset_dialogs.png</iconset>
+   </property>
+   <property name="text">
+    <string>检查更新</string>
+   </property>
+  </action>
+  <action name="action_18">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/iconPicture/about_small.png</normaloff>:/iconPicture/about_small.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
